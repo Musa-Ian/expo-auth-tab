@@ -1,0 +1,22 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'expo.modules.authtab'
+version = '0.1.0'
+
+android {
+  namespace "expo.modules.authtab"
+  defaultConfig {
+    versionCode 1
+    versionName "0.1.0"
+  }
+}
+
+dependencies {
+  // AuthTabIntent first shipped in 1.9.0.
+  implementation "androidx.browser:browser:1.10.0"
+  // ComponentActivity and the result launcher: androidx.browser needs them at runtime but does not export them.
+  implementation "androidx.activity:activity:1.9.0"
+}

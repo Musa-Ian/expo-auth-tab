@@ -1,0 +1,38 @@
+{
+  "name": "expo-auth-tab",
+  "version": "0.1.0",
+  "description": "Chrome's Auth Tab (AuthTabIntent) for Expo apps on Android: browser sign-in that hands its result back to your activity, with no app switch.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src",
+    "android/build.gradle",
+    "android/src",
+    "expo-module.config.json"
+  ],
+  "keywords": [
+    "expo",
+    "react-native",
+    "android",
+    "auth-tab",
+    "authtabintent",
+    "custom-tabs",
+    "oauth",
+    "oidc",
+    "expo-auth-session"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Musa-Ian/expo-auth-tab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Musa-Ian/expo-auth-tab/issues"
+  },
+  "homepage": "https://github.com/Musa-Ian/expo-auth-tab#readme",
+  "author": "Ian Musa",
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": "*",
+    "react-native": "*"
+  }
+}
